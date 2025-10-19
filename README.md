@@ -135,6 +135,7 @@ python traffic_analyzer.py <video_file_path>
 ```bash
 # Install Python dependencies
 pip install opencv-python numpy
+```
 
 ## Implementation Details
 
