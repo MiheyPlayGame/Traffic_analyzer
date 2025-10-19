@@ -203,7 +203,7 @@ analyzer = TrafficAnalyzer(video_source="traffic_video.mp4")  # Auto-detects lin
 ## Output Format
 The system provides real-time output in the format:
 ```
-Cars: 15, Road markings intact.
+Cars: N, Road markings intact.
 ```
 
 ## Visual Interface
@@ -224,7 +224,6 @@ The `run()` function now supports configurable window display:
 ## Controls
 - **Press 'q'**: Quit the application
 - **Press 'ESC'**: Alternative quit method
-- **Close Windows**: Close either window to exit
 
 ## Project Structure
 ```
@@ -243,5 +242,4 @@ Traffic_analyzer/
 - [Computer Vision Tutorials](https://opencv-python-tutroals.readthedocs.io/)
 - [Motion Detection Techniques](https://docs.opencv.org/4.x/d1/d5c/tutorial_py_contours_begin.html)
 - [Hough Line Transform](https://docs.opencv.org/4.x/d6/d10/tutorial_py_houghlines.html)
-- [CV-2-11 Task Implementation](Project-task-CV-2-11/it_is_not_my_task.py)
 - [CV-2-37 Task Implementation](Project-task-CV-2-37/Road_detector.py)
